@@ -3,6 +3,10 @@
   display: flex;
   gap: 15px;
   width: min(100%, 1280px);
+  margin: 0 auto;
   padding: 0 15px;
   justify-content: center;
+}
+
+header {
 }
