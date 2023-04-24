@@ -6,6 +6,28 @@
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
+  padding: 0 10px;
+}
+
+.content__cover {
+  position: relative;
+}
+
+.content__cover a {
+  display: inline-block;
+  color: inherit;
+  border: 1px solid white;
+  background-color: #111;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.content__cover a:hover {
+  background-color: white;
+  color: #111;
 }
 
 .content__cover img {
