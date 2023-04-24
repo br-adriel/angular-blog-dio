@@ -5,6 +5,20 @@
   box-sizing: border-box;
 }
 
+body,
+input,
+button,
+textarea,
+select,
+option {
+  font-family: "Segoe UI", sans-serif;
+}
+
 body {
   background-color: #111;
+  color: white;
+}
+
+a {
+  text-decoration: none;
 }
