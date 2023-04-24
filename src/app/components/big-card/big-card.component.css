@@ -3,7 +3,6 @@ a {
 }
 
 .container__big-card {
-  width: min(600px, 100%);
   height: 600px;
   display: flex;
   flex-direction: column;

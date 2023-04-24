@@ -1,9 +1,8 @@
 .container__articles {
-  margin-top: 30px;
   display: flex;
   gap: 15px;
   width: min(100%, 1280px);
-  margin: 0 auto;
+  margin: 15px auto;
   padding: 0 15px;
   justify-content: center;
 }
