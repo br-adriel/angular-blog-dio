@@ -1,0 +1,17 @@
+.container__menu-bar {
+  width: min(1280px, 100%);
+  margin: 5px auto 0;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.container__menu-bar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+a {
+  color: inherit;
+}
