@@ -1,0 +1,23 @@
+.container__small-card {
+  display: flex;
+  flex-direction: column;
+  width: min(500px, 100%);
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.container__small-card__content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.small-card__photo img {
+  width: 200px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.small-card__title h2 a {
+  color: white;
+}
