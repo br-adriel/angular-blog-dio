@@ -1,20 +1,16 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img
-      src="https://construcril.com.br/wp-content/uploads/2022/07/placeholder-89.png"
-      alt=""
-      height="300px"
-    />
+    <img [src]="cover" alt="" height="300px" />
   </div>
   <div class="big-card__title">
     <h2>
-      <a href="">Saiu a nova versão do Angular</a>
+      <a href="">{{ title }}</a>
     </h2>
   </div>
   <div class="big-card__description">
     <p>
       <a href="">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, vero.
+        {{ description }}
       </a>
     </p>
   </div>
