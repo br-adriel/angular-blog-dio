@@ -3,10 +3,10 @@ a {
 }
 
 .container__big-card {
-  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 .big-card__photo {

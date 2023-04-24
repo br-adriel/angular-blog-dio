@@ -5,4 +5,11 @@
   margin: 15px auto;
   padding: 0 15px;
   justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 992px) {
+  .container__articles {
+    flex-direction: row;
+  }
 }
